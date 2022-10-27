@@ -1,0 +1,30 @@
+{
+  "name": "backend-developer",
+  "version": "1.0.0",
+  "description": "Step by step guide to becoming a modern backend developer.",
+  "scripts": {
+    "commit": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodger025/Backend-Developer.git"
+  },
+  "keywords": [
+    "backend-developer"
+  ],
+  "author": "rodger025",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodger025/Backend-Developer/issues"
+  },
+  "homepage": "https://github.com/rodger025/Backend-Developer#readme",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0"
+  }
+}
